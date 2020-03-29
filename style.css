@@ -1,0 +1,52 @@
+#navigation {
+    list-style-type: none;
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    top:0;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    position: fixed;
+    border-bottom: 3px solid rgb(234, 141, 14);
+}
+
+#nav_tab {
+    float: right;
+    height: fill;
+    width: calc(100% /11);
+    box-sizing: border-box;
+    border-left: 2px solid rgb(234, 141, 14);
+}
+
+#nav_tab tab_link {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+#nav_tab:hover{
+    background-color: rgb(234, 141, 14);
+}
+
+body{
+    background-color: rgb(67, 67, 67);
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    width: 90%;
+    height: 3000px;
+    margin: auto;
+    background-color: rgb(250, 247, 243);
+    margin-top: 70px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
