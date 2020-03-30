@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+    <script src="ingredients.json" type="text/javascript"></script>
+    <script src="pantryDisplay.js" type="text/javascript"></script>
+</head>
+<body>
+    <ul id="navigation">
+        <li id="nav_tab"><a href="login.html">log in</a></li>
+        <li id="nav_tab"><a href="about.html">about</a></li>
+        <li id="nav_tab"><a href="settings.html">settings</a></li>
+        <li id="nav_tab"><a href="users.html">users</a></li>
+        <li id="nav_tab"><a href="planner.html">planner</a></li>
+        <li id="nav_tab" style= "background-color: rgb(234, 124, 14);"><a href="pantry.html">pantry</a></li>
+        <li id="nav_tab"><a href="recipies.html">recipies</a></li>
+        <li id="nav_tab"><a href="list.html">list</a></li>
+        <img id="logo" src="logo.png">
+    </ul>
+    <div id="box">
+        <ul id="searchSettings">
+            <p class="label">Grid Size</p>
+            <input type="range" min="50" max="100" value="75" id="gridSlider">
+            <p class="label" style="padding-left: 200px;">Search</p>
+            <input type="text" id="searchBar">
+        </ul>
+        <ul id="foodList"></ul>
+    </div>
+</body>

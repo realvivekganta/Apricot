@@ -4,8 +4,6 @@ var navbar = document.getElementById("navigation");
 
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
-console.log(sticky);
-
     
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};

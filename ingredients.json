@@ -1,0 +1,51 @@
+food = [
+        {
+            "name":"Tomato",
+            "calories": 15,
+            "count": 3,
+            "unit": "Tomatoes",
+            "image": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_1042840159-760x506.jpg",
+        },
+        
+        {
+            "name":"Flour",
+            "calories": 3,
+            "count": 10,
+            "unit": "Cups",
+            "image": "https://bakingamoment.com/wp-content/uploads/2018/04/IMG_7379-why-use-cake-flour-horizontal.jpg",
+        },
+        
+        {
+            "name":"Blueberries",
+            "calories": 27,
+            "count": 2,
+            "unit": "Cups",
+            "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blueberries-1527711083.jpg",
+        },
+    
+        {
+            "name":"Corn",
+            "calories": 53,
+            "count": 3,
+            "unit": "Cobs",
+            "image": "https://www.thespruce.com/thmb/bYyjxT-imZVqXqdYdvMLX72qrRc=/1777x1333/smart/filters:no_upscale()/fresh_corn-583dfbd65f9b58d5b170c933.jpg",
+        },
+    
+        {
+            "name":"Chocolate Chips",
+            "calories": 164,
+            "count": 2.5,
+            "unit": "Cups",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTkyXxKCEgSI9bAY6-kgtKk8Fjdl926yAsQxCF6iQVm_gJUCfKs",
+        },
+    
+        {
+            "name":"Milk",
+            "calories": 354,
+            "count": 1.5,
+            "unit": "Gallons",
+            "image": "https://www.readersdigest.ca/wp-content/uploads/sites/14/2018/09/is-milk-good-for-you.jpg",
+        },
+    
+    ];
+    

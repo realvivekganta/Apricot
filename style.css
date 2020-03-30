@@ -1,13 +1,103 @@
+#gridSlider{
+    margin-left: 15px;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 200px; /* Full-width */
+    height: 20px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#gridSlider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: rgb(235, 157, 78); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.label{
+    width:80px;
+    color: rgb(103, 103, 103);
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#searchSettings{
+    margin:0px;
+    padding:0px;
+    padding-left: 50px;
+    width:fill;
+    height:auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+#searchBar{
+    width: 200px;
+    border: 2px solid rgb(103, 103, 103);
+    border-radius: 10px;
+}
+
+#foodList{
+    margin:0;
+    padding: 0;
+    padding-left: 30px;
+    width:fill;
+    height:auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+#pantryImage{
+    height: 180px;
+    min-width: 250px;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+#ingredientBox{
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(234, 124, 14);
+    border-radius: 5px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: rgb(237, 218, 202);
+    overflow:hidden;
+    zoom: 75%;
+    -webkit-transition : 0.2s;
+}
+
+#ingredientBox:hover{
+    -webkit-transition : 0.2s;
+    transform: scale(1.1,1.1);  
+    cursor: pointer;
+}
+
 #navigation {
     list-style-type: none;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     top:0;
     margin: 0px;
     padding: 0px;
     overflow:hidden;
     position: fixed;
-    border-bottom: 3px solid rgb(234, 141, 14);
+    border-bottom: 3px solid rgb(234, 124, 14);
 }
 
 #nav_tab {
@@ -15,33 +105,44 @@
     height: fill;
     width: calc(100% /11);
     box-sizing: border-box;
-    border-left: 2px solid rgb(234, 141, 14);
+    border-left: 2px solid rgb(234, 124, 14);
 }
 
-#nav_tab tab_link {
+#nav_tab a {
     display: block;
-    color: #ffffff;
+    color: #0f0f0f;
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
 }
 
-#nav_tab:hover{
-    background-color: rgb(234, 141, 14);
+a:hover{
+    background-color: rgb(234, 124, 14);
+    cursor: pointer;
 }
 
 body{
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(237, 218, 202);
     margin: 0;
     padding: 0;
 }
 
 #box {
-    width: 90%;
+    width: 80%;
     height: 3000px;
     margin: auto;
-    background-color: rgb(250, 247, 243);
+    background-color: rgb(255, 255, 255);
     margin-top: 70px;
+    padding:0;
+}
+
+#logo{
+    max-height:40px;
+    width: auto;
+    float:right;
+    margin-right: 13px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
